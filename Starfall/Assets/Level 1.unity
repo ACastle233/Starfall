@@ -362,7 +362,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f7ceb62b9869524984dc7c17f36e686, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xSpeed: 4
+  Speed: 20
+  xRange: 5.5
+  yRange: 3
+  positionPitchFactor: -5
+  controlPitchFactor: -5
+  positionYawFactor: -5
+  controlRollFactor: -30
 --- !u!1 &525309015
 GameObject:
   m_ObjectHideFlags: 0
@@ -444,7 +450,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 45.1
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -596,12 +602,12 @@ PrefabInstance:
     - target: {fileID: 2875773113774383559, guid: 51a8d82e7297afb4e84e110e98462ede,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.95
+      value: -2.75
       objectReference: {fileID: 0}
     - target: {fileID: 2875773113774383559, guid: 51a8d82e7297afb4e84e110e98462ede,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 7.4
+      value: 8.53
       objectReference: {fileID: 0}
     - target: {fileID: 2875773113774383559, guid: 51a8d82e7297afb4e84e110e98462ede,
         type: 3}
