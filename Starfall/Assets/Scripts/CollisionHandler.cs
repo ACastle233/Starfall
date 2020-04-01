@@ -25,4 +25,5 @@ public class CollisionHandler : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
+
 }
