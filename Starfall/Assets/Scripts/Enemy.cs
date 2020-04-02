@@ -13,13 +13,7 @@ public class Enemy : MonoBehaviour
         Collider boxCollider = gameObject.AddComponent<BoxCollider>();
         boxCollider.isTrigger = false;
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    
     void OnParticleCollision(GameObject other)
     {
         GameObject fx =Instantiate(deathFX, transform.position, Quaternion.identity);
