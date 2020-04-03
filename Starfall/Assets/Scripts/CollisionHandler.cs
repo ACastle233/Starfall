@@ -13,12 +13,12 @@ public class CollisionHandler : MonoBehaviour
     {
         StartDeathSequence();
         deathFX.SetActive(true);
+        Invoke("ReloadScene", levelLoadDelay);
     }
 
     private void StartDeathSequence()
     {
         SendMessage("OnPlayerDeath");
-        Invoke("ReloadScene", levelLoadDelay);
     }
 
     private void ReloadScene()

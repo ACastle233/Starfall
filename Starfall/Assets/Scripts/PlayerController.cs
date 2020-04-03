@@ -40,7 +40,6 @@ public class PlayerController : MonoBehaviour
     
     void OnPlayerDeath()//called by String reference
     {
-        print("Control freeze");
         isControlEnabled = false;
     }
     
