@@ -4807,12 +4807,12 @@ GameObject:
   - component: {fileID: 5317834145104586940}
   - component: {fileID: 5317834145104586931}
   m_Layer: 0
-  m_Name: Bullets (1)
+  m_Name: Gun left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5317834145104586930
 Transform:
   m_ObjectHideFlags: 0
@@ -8295,9 +8295,9 @@ ParticleSystem:
         m_NumAlphaKeys: 2
     range: {x: 0, y: 1}
   CollisionModule:
-    enabled: 0
+    enabled: 1
     serializedVersion: 3
-    type: 0
+    type: 1
     collisionMode: 0
     colliderForce: 0
     multiplyColliderForceByParticleSize: 0
@@ -8477,7 +8477,7 @@ ParticleSystem:
     maxCollisionShapes: 256
     quality: 0
     voxelSize: 0.5
-    collisionMessages: 0
+    collisionMessages: 1
     collidesWithDynamic: 1
     interiorCollisions: 0
   TriggerModule:
@@ -9505,12 +9505,12 @@ GameObject:
   - component: {fileID: 6357324262095337550}
   - component: {fileID: 6357324262095337537}
   m_Layer: 0
-  m_Name: Bullets
+  m_Name: Gun right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6357324262095337536
 Transform:
   m_ObjectHideFlags: 0
@@ -12993,9 +12993,9 @@ ParticleSystem:
         m_NumAlphaKeys: 2
     range: {x: 0, y: 1}
   CollisionModule:
-    enabled: 0
+    enabled: 1
     serializedVersion: 3
-    type: 0
+    type: 1
     collisionMode: 0
     colliderForce: 0
     multiplyColliderForceByParticleSize: 0
@@ -13175,7 +13175,7 @@ ParticleSystem:
     maxCollisionShapes: 256
     quality: 0
     voxelSize: 0.5
-    collisionMessages: 0
+    collisionMessages: 1
     collidesWithDynamic: 1
     interiorCollisions: 0
   TriggerModule:
@@ -14294,6 +14294,9 @@ MonoBehaviour:
   controlSpeed: 20
   xRange: 8.5
   yRange: 5.5
+  guns:
+  - {fileID: 6357324262095337539}
+  - {fileID: 5317834145104586929}
   positionPitchFactor: -2
   positionYawFactor: 5
   controlPitchFactor: -20
