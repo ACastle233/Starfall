@@ -27,6 +27,7 @@ public class Enemy : MonoBehaviour
     void OnParticleCollision(GameObject other)
     {
         //Add something
+        //Change B
         while (!isDead)
         {
             scoreBoard.ScoreHit(scorePerHit);
